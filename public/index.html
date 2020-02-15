@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>pickCard</title>
+  <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8080/stylesheets/style.css" />
+  <link rel="icon" href="http://127.0.0.1:8080/images/holystone.jpg"/>
+  <script src="https://cdn.jsdelivr.net/npm/axios@0.12.0/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.13.1/lodash.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/qs@6.5.2/dist/qs.min.js"></script>
+</head>
+<body>
+<h1>聖晶石召喚シミュレータ</h1>
+<div id="app">
+  <button @click="showOneCard">
+    pick 1 card
+  </button>
+  <button @click="showTenCards">
+    pick 10 cards
+  </button>
+  <button @click="calculatePick">
+    Calculate
+  </button>
+  <div id="showStone">
+    <img :src="iconUrl" @click="useStoneOrNot"/>
+    <p> {{ stone }} </p>
+  </div>
+  <br/>
+  <textarea v-show="seenCal" rows="10" cols="50"> {{ cal }}</textarea>
+  <div v-show="seen0" class="case">
+    <p :style="styleObject.styleObject0"> {{ name.name0 }} </p>
+    <img :src="img.img0" :alt="text"/>
+  </div>
+  <div v-show="seen" class="case">
+    <p :style="styleObject.styleObject1" > {{ name.name1 }} </p>
+    <img :src="img.img1" :alt="text"/>
+  </div>
+  <div v-show="seen" class="case">
+    <p :style="styleObject.styleObject2" > {{ name.name2 }} </p>
+    <img :src="img.img2" :alt="text"/>
+  </div>
+  <div v-show="seen" class="case">
+    <p :style="styleObject.styleObject3"> {{ name.name3 }} </p>
+    <img :src="img.img3" :alt="text"/>
+  </div>
+  <div v-show="seen" class="case">
+    <p :style="styleObject.styleObject4" > {{ name.name4 }} </p>
+    <img :src="img.img4" :alt="text"/>
+  </div>
+  <br v-show="seen"/>
+  <div v-show="seen" class="case">
+    <p :style="styleObject.styleObject5"> {{ name.name5 }} </p>
+    <img :src="img.img5" :alt="text"/>
+  </div>
+  <div v-show="seen" class="case">
+    <p :style="styleObject.styleObject6"> {{ name.name6 }} </p>
+    <img :src="img.img6" :alt="text"/>
+  </div>
+  <div v-show="seen" class="case">
+    <p :style="styleObject.styleObject7"> {{ name.name7 }} </p>
+    <img :src="img.img7" :alt="text"/>
+  </div>
+  <div v-show="seen" class="case">
+    <p :style="styleObject.styleObject8"> {{ name.name8 }} </p>
+    <img :src="img.img8" :alt="text"/>
+  </div>
+  <div v-show="seen" class="case">
+    <p :style="styleObject.styleObject9"> {{ name.name9 }} </p>
+    <img :src="img.img9" :alt="text"/>
+  </div>
+
+</div>
+<script src="http://localhost:8080/javascripts/index.js"></script>
+</body>
+</html>

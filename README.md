@@ -43,7 +43,7 @@
 This is a system of fgo pick-card simulation. I'll introduce principle and structure about it.
 
 ####principle:
-this system uses client-server mode. frontend is made by Vue.js, backend is made by Node.js, and DB is Mongodb. Frontend sends pick-card request to server, and server searches a character info in DB. then server returns the character info back to client as respond. Finally, frontend processes the responded data and shows it to user.
+this system uses client-server mode. frontend is made by `Vue.js`, backend is made by `Node.js`, and DB is `Mongodb`. Frontend sends pick-card request to server, and server searches a character info in DB. then server returns the character info back to client as respond. Finally, frontend processes the responded data and shows it to user.
 
 #### structure:
 

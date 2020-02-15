@@ -64,11 +64,11 @@ this system uses client-server mode. frontend is made by Vue.js, backend is made
 4. In standard mode, if you do not have enough holystone for picking and refused the stone purchasing, You will not be allowed to pick card.
 
 #### How to use:
-This system works under node environment. Make sure you installed Node v8.x.x+ before you use this system. And if you have installed git, you can download this system by using
+This system works under node environment. Make sure you installed Node v8.x.x+ before you use this system. And if you have installed git, you can download this system by coding
 
 `git clone https://github.com/killbe5419/pickCardFgo.git`
 
-and use it by using
+and use it by coding
 
 `node app.js`
 

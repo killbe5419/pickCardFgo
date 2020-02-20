@@ -17,7 +17,7 @@
 
 - `Calculate` 按钮：是一个独立功能，用于计算抽取当前池子中的概率提升卡所需圣晶石的期望。
 
-- #####补充：
+- ##### 补充：
 
 1. 当自由模式（圣晶石图标上面有叉）时，抽卡不会扣除圣晶石。
 
@@ -42,7 +42,7 @@
 ## English Description:
 This is a system of fgo pick-card simulation. I'll introduce principle and structure about it.
 
-####principle:
+#### principle:
 this system uses client-server mode. frontend is made by `Vue.js`, backend is made by `Node.js`, and DB is `Mongodb`. Frontend sends pick-card request to server, and server searches a character info in DB. then server returns the character info back to client as respond. Finally, frontend processes the responded data and shows it to user.
 
 #### structure:

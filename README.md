@@ -53,7 +53,7 @@ this system uses client-server mode. frontend is made by `Vue.js`, backend is ma
 
 - `Calculation`  a independent function that help you calculate expected expense to get a pick-up card.
 
-- ##### Additional comment:
+- ##### Additional comments:
 
 1. In free mode(a X covers holystone icon), pick card will not spend holystones.
 

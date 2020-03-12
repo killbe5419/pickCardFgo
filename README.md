@@ -72,4 +72,4 @@ and use it by coding
 
 `node app.js`
 
-to run it in [localhost](http://localhost:8080). If you feel sticky, that's ok! I have already published it on [my site](http://net-labo.icu:8080). If you're interested in it, go there and try it! In addtion, Beacuse of the poor performance of that cloud server, the exp may be a little bit slow, I feel sorry about that but please be patient. I hope you could enjoy it!
+to run it in [localhost](http://localhost:8080). If you feel sticky, that's ok! I have already published it on [my site](http://pickcard.net-labo.icu). If you're interested in it, go there and try it! In addtion, Beacuse of the poor performance of that cloud server, the exp may be a little bit slow, I feel sorry about that but please be patient. I hope you could enjoy it!
